@@ -1,0 +1,174 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+ img {
+    height: 1000px;
+    width: 100%;
+}
+
+.banner {
+  background: url("./images/backk.jpg");
+  width: 100%;
+  height: 120vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container_flex{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+.main_heading {
+  font-weight: 900;
+  font-size: 60px;
+  margin-top: 4em;
+  color: goldenrod;
+  
+  
+}
+
+.container_flex > div{
+  width: 500px;
+  margin-left: 30em;
+  font-family: 'Russo One', sans-serif;
+  
+
+}
+.second_heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+
+.searchBar{
+  margin-top: 2em;
+}
+
+.container_flex2{
+  display: flex;
+  justify-content: space-around;
+  width: 2em;
+  
+}
+
+.container_flex2 > div{
+  border-radius: 5px;
+  margin-top: 4em;
+  height: 9ex;
+  width: 15ex;
+}
+
+.child1 {
+  background: blueviolet;
+  text-align: center;
+}
+
+.child2 {
+  background: blueviolet;
+  text-align: center;
+}
+
+.delight {
+  height: 120px;
+  width: 130px;
+  border-radius: 5px;
+}
+
+.container2{
+  display: flex;
+  background-image: linear-gradient(to right, red , yellow);
+  padding: 20px;
+  justify-content: space-around;
+  
+
+}
+.food{
+  padding: 5px;
+
+}
+
+.card_back{
+  padding: 10px;
+  background: green;
+}
+
+.heads{
+  text-align: center;
+  background: linear-gradient(to right, red , yellow);
+}
+.heading_pop{
+  padding: 1em;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.card_back:hover{
+  transform: scale(1.3);
+}
+
+.container3{
+  display: flex;
+  background: mediumaquamarine;
+}
+
+.child3{
+  background: mediumorchid;
+  display: flex;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.doctor{
+  width:200px;
+   height:260px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.cdoctor{
+  width:10em;
+  font-size: 1.5em;
+}
+
